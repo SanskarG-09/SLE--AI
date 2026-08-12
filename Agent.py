@@ -5,9 +5,14 @@ def simple_chatbot():
 print("Hello! I am NexaBot AI. How can I help you today?")
 
 jokes = [
-    "Why do programmers prefer dark mode? Because light attracts bugs! 😂",
-    "Why did the computer go to the doctor? Because it had a virus! 😂",
-    "Why was the computer cold? Because it left its Windows open! 😂"
+    # my contributions
+    "Why did the computer go to the doctor? Because it had a virus! 🦠😂",
+
+    "Why was the computer cold? Because it left its Windows open!😂"
+
+    "Why do programmers hate nature? It has too many bugs! 🐛😂",
+
+    "What do you call a computer that sings? A-Dell! 🎵😂"
 ]
 
 while True:
