@@ -5,7 +5,6 @@ def simple_chatbot():
 print("Hello! I am NexaBot AI. How can I help you today?")
 
 jokes = [
-    # my contributions
     "Why did the computer go to the doctor? Because it had a virus! 🦠😂",
 
     "Why was the computer cold? Because it left its Windows open!😂"
@@ -16,13 +15,16 @@ jokes = [
 ]
 
 while True:
-    user_input = input("You: ").lower()
+    user_input = input("You: ").lower().strip()
 
-    if user_input in ['exit', 'quit', 'bye']:
+    if user_input in ["exit", "quit", "bye"]:
         print("NexaBot AI: Goodbye!")
         break
 
-    elif "hello" in user_input or "hi" in user_input:
+    elif "joke" in user_input:
+        print("NexaBot AI:", random.choice(jokes))
+
+    elif "hello" in user_input or user_input == "hi":
         print("NexaBot AI: Hello! Nice to meet you.")
 
     elif "how are you" in user_input:
@@ -38,24 +40,17 @@ while True:
 
         if operator == "+":
             print("NexaBot AI:", num1 + num2)
-
         elif operator == "-":
             print("NexaBot AI:", num1 - num2)
-
         elif operator == "*":
             print("NexaBot AI:", num1 * num2)
-
         elif operator == "/":
             if num2 != 0:
                 print("NexaBot AI:", num1 / num2)
             else:
                 print("NexaBot AI: Cannot divide by zero.")
-
         else:
             print("NexaBot AI: Invalid operator.")
-
-    elif "joke" in user_input:
-        print("NexaBot AI:", random.choice(jokes))
 
     elif "thank" in user_input:
         print("NexaBot AI: You're welcome!")
