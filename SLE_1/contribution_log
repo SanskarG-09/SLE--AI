@@ -1,0 +1,126 @@
+# Contribution Log – NexaBot AI 
+
+## 1. Project Name
+
+**NexaBot AI – Simple Python Chatbot - my contribution**
+
+## 2. Project Description
+
+NexaBot AI is a simple rule-based chatbot developed using Python. It can respond to greetings, answer basic questions, tell jokes, perform basic mathematical calculations, and end the conversation when the user enters an exit command.
+
+## 3. Technologies Used
+
+* Python
+* `random` module
+* VS Code
+* Git
+* GitHub
+
+## 4. Features Implemented
+** AI contribution**
+
+1. Greeting response
+2. Basic conversation
+3. Chatbot name response
+4. Calculator for:
+
+   * Addition
+   * Subtraction
+   * Multiplication
+   * Division
+5. Division-by-zero handling
+6. Random jokes
+7. Thank-you response
+8. Exit commands
+9. Default response for unknown input
+
+## 5. Contribution Log
+
+| Step | Work Done                       | My Contribution                                                       | AI Assistance                            |
+| ---- | ------------------------------- | --------------------------------------------------------------------- | ---------------------------------------- |
+| 1    | Created basic chatbot structure | Created the Python file and basic program structure                   | Suggested basic chatbot structure        |
+| 2    | Added user input                | Used `input()` inside a `while` loop to continuously receive messages | Explained how the loop works             |
+| 3    | Added exit functionality        | Added `exit`, `quit`, and `bye` commands                              | Suggested exit condition                 |
+| 4    | Added greetings                 | Added responses for `hello` and `hi`                                  | Suggested conditional logic              |
+| 5    | Added chatbot identity          | Added the name `NexaBot AI`                                           | Suggested chatbot name                   |
+| 6    | Added calculator                | Implemented `+`, `-`, `*`, and `/` operations                         | Helped place and explain calculator code |
+| 7    | Added error handling            | Added a check to prevent division by zero                             | Suggested the condition                  |
+| 8    | Added jokes                     | Created a list containing programming jokes                           | Suggested using the `random` module      |
+| 9    | Added random joke selection     | Used `random.choice(jokes)` to select a joke                          | Explained `random.choice()`              |
+| 10   | Added thank-you response        | Added response when the user says thanks                              | Suggested the condition                  |
+| 11   | Added default response          | Added a response for unknown messages                                 | Helped improve the chatbot response      |
+| 12   | Testing                         | Tested greetings, calculator, jokes, and exit commands                | Helped identify possible improvements    |
+
+## 6. Important Python Concepts Used
+
+### `while True`
+
+Used to keep the chatbot running continuously until the user chooses to exit.
+
+### `if / elif / else`
+
+Used to check the user's input and select the appropriate chatbot response.
+
+### `input()`
+
+Used to receive messages and calculator values from the user.
+
+### `random.choice()`
+
+Used to randomly select one joke from the joke list.
+
+### `float()`
+
+Used to convert calculator input into numbers that can contain decimal values.
+
+### `break`
+
+Used to stop the `while` loop when the user enters `exit`, `quit`, or `bye`.
+
+## 7. AI Assistance
+
+AI assistance was used during development to:
+
+* Understand the structure of a Python chatbot.
+* Suggest additional chatbot features.
+* Explain Python syntax and concepts.
+* Help integrate the calculator into the chatbot.
+* Help add random jokes.
+* Explain the purpose of `while`, `if-elif-else`, `break`, and `random.choice()`.
+* Help organize the project documentation.
+
+The final code was reviewed and tested by the student to understand how each part works.
+
+## 8. Testing
+
+The following inputs were tested:
+
+| Input         | Expected Output        |
+| ------------- | ---------------------- |
+| `hello`       | Greeting               |
+| `hi`          | Greeting               |
+| `how are you` | Status response        |
+| `your name`   | NexaBot AI             |
+| `calculate`   | Opens calculator       |
+| `joke`        | Displays a random joke |
+| `thank you`   | Thank-you response     |
+| `bye`         | Exits chatbot          |
+| Unknown input | Default response       |
+
+## 9. Future Improvements
+
+Possible future improvements include:
+
+* Add date and time functionality.
+* Add weather information.
+* Add more conversational responses.
+* Add a graphical user interface (GUI).
+* Add Natural Language Processing (NLP).
+* Add machine-learning-based intent detection.
+* Connect the chatbot to an AI API.
+* Store conversation history.
+* Connect the project with GitHub for version control.
+
+## 10. Conclusion
+
+NexaBot AI is a beginner-level Python chatbot that demonstrates fundamental programming concepts such as loops, conditional statements, lists, functions from modules, user input, and basic error handling. The project provides a foundation for developing a more advanced AI-powered chatbot in the future.
